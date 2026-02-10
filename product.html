@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GreenEdge Lawn Care</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      background-color: #f6f8f6;
+      color: #333;
+    }
+    header {
+      background: #2f7d32;
+      color: #fff;
+      padding: 20px 40px;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 20px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 60px 40px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://via.placeholder.com/1200x400');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      text-align: center;
+      padding: 100px 40px;
+    }
+    .hero h2 {
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: auto;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 28px;
+      background: #4caf50;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    .btn:hover {
+      background: #43a047;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      margin-top: 40px;
+    }
+    .card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 6px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #2f7d32;
+    }
+    footer {
+      background: #1b5e20;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>GreenEdge Lawn Care</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#products">Products</a>
+    </nav>
+  </header>
+
+  <!-- Home Page -->
+  <section id="home" class="hero">
+    <h2>Perfect Lawns, Every Time</h2>
+    <p>
+      GreenEdge Lawn Care provides reliable and affordable lawn cutting services
+      to keep your outdoor spaces fresh, green, and beautifully maintained.
+    </p>
+    <a href="#products" class="btn">Our Services</a>
+  </section>
+
+  <!-- About Us Page -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      Founded in 2022, GreenEdge Lawn Care is a locally owned business dedicated
+      to delivering professional lawn cutting and maintenance services.
+      We believe a well-maintained lawn makes every home and workplace look
+      welcoming and healthy.
+    </p>
+    <p>
+      Our team uses modern equipment, eco-friendly practices, and a strong
+      attention to detail. Customer satisfaction and consistent quality are at
+      the heart of everything we do.
+    </p>
+  </section>
+
+  <!-- Products / Services Page -->
+  <section id="products">
+    <h2>Our Services</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Regular Lawn Cutting</h3>
+        <p>
+          Scheduled weekly or bi-weekly lawn cutting to keep your grass neat,
+          even, and healthy throughout the season.
+        </p>
+      </div>
+      <div class="card">
+        <h3>One-Time Lawn Trim</h3>
+        <p>
+          Ideal for special occasions or quick cleanups. We provide fast and
+          efficient lawn trimming with professional results.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Edge & Cleanup</h3>
+        <p>
+          Sharp edging along pathways and driveways, plus removal of grass
+          clippings for a polished finish.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 GreenEdge Lawn Care. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
